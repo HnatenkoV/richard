@@ -9,6 +9,7 @@
     }
 
     .get_started {
+        background-size: auto;
         padding: 154px 0 156px 0;
     }
 }
