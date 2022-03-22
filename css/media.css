@@ -1,4 +1,18 @@
 
+@media only screen and (max-width: 1281px) {
+    .momentum img {
+        width: 652px;
+        height: 680px;
+        position: absolute;
+        top: 130px;
+        right: -50px;
+    }
+
+    .get_started {
+        padding: 154px 0 156px 0;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .container {
         max-width: 950px;
@@ -136,7 +150,7 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
     .container {
         max-width: 680px;
     }
@@ -341,6 +355,67 @@
 
 }
 
+@media only screen and (max-width: 415px) {
+    .container {
+        max-width: 300px;
+    }
+
+.momentum {
+    padding: 270px 0 30px 0;
+}
+
+.activity img {
+    width: 40px;
+    height: 20px;
+}
+
+.statistics {
+    width: 120px;
+}
+
+.stat {
+    flex-wrap: wrap;
+}
+
+.burger img, .salad img {
+    width: 300px;
+    height: 260px;
+}
+
+.quotes p {
+    max-width: 700px;
+    margin: 30px auto;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.first_newspaper p:first-child:after, .second_newspaper p:first-child:after {
+    display: none
+}
+
+.get_started {
+    padding: 80px 0;
+}
+
+.get_started_btn {
+    flex-direction: column;
+}
+.get_started_btn a:first-child {
+    margin: 0 0 20px 0;
+}
+
+.subscribe {
+    flex-direction: column;
+}
+
+.subscribe_input {
+    max-width: none;
+    text-align: center;
+    padding: 22px;
+}
+
+}
+
 @media only screen and (max-width: 391px) {
     .container {
         max-width: 300px;
@@ -404,7 +479,7 @@
 
 @media only screen and (max-width: 360px) {
     .momentum {
-        padding: 130px 0 0px 0;
+        padding: 270px 0 0 0;
     }
 
     .momentum h1 {
@@ -426,6 +501,6 @@
 
 @media only screen and (max-width: 320px) {
     .momentum {
-        padding: 170px 0 0px 0;
+        padding: 170px 0 0 0;
     }
 }
