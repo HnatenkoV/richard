@@ -1,0 +1,431 @@
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+    /* momentum */
+
+    .momentum {
+        padding: 200px 0 30px 0;
+    }
+
+    .momentum img {
+        width: 479px;
+        height: 675px;
+        top: 20px;
+        right: 0;
+    }
+
+    .momentum h1 {
+        font-size: 60px;
+    }
+
+    .momentum p {
+        max-width: 580px;
+        font-size: 27px;
+    }
+
+    /* the tablet */
+
+    .tablet {
+        padding-top: 50px;
+    }
+
+    .tablet p {
+        max-width: 570px;
+        margin: 20px auto;
+        font-size: 35px;
+    }
+
+    .tablet img {
+        margin: 0 auto;
+        width: 951px;
+        height: 480px;
+    }
+
+    /* pages */
+
+    .pages {
+        padding: 60px 0 70px 0;
+    }
+
+    .first_pages img {
+        width: 386px;
+        height: 469px;
+    }
+
+    /* activity */
+
+    .activity {
+        padding: 40px 0 75px 0;
+    }
+
+    .items p {
+        font-size: 14px;
+        margin-bottom: 100px;
+    }
+
+    .items h3 {
+        margin: 30px 0 17px 0;
+        font-size: 16px;
+    }
+
+    .items {
+        max-width: 290px;
+    }
+
+    /* get_started */
+
+    .get_started {
+        background-size: auto;
+        padding: 150px 0;
+    }
+
+    footer {
+        padding: 70px 0 60px 0;
+    }
+
+    footer form {
+        margin-bottom: 84px;
+    }
+}
+@media only screen and (max-width: 992px) {
+
+    .container {
+        max-width: 900px;
+    }
+
+    .tablet img {
+        width: 900px;
+        height: 480px;
+    }
+
+    .first_pages {
+        margin-bottom: 100px;
+    }
+
+    .second_page {
+        margin-bottom: 100px;
+    }
+
+    .statistics h3 {
+        font-size: 50px;
+    }
+
+    .food_text {
+        max-width: 300px;
+    }
+
+    .burger img, .salad img {
+        width: 500px;
+        height: 390px;
+    }
+
+    .quotes {
+        padding: 60px 0 120px 0;
+    }
+
+    .product img:first-child {
+        width: 850px;
+    }
+
+    .mobile {
+        margin-top: 65px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 680px;
+    }
+
+    .momentum img {
+        width: 380px;
+        height: 590px;
+        top: 40px;
+    }
+
+    .momentum {
+        padding: 135px 0 30px 0;
+    }
+
+    .momentum h1 {
+        font-size: 40px;
+    }
+
+    .momentum p {
+        max-width: 380px;
+        font-size: 20px;
+    }
+
+    .tablet img {
+        margin: 0 auto;
+        width: 660px;
+        height: 361px;
+    }
+
+    .tablet h2 {
+        max-width: 330px;
+        font-size: 12px;
+    }
+
+    .tablet p {
+        max-width: 371px;
+        margin: 20px auto;
+        font-size: 30px;
+    }
+
+    .first_pages img {
+        width: 290px;
+        height: 400px;
+    }
+
+    .second_page img {
+        width: 300px;
+        height: 350px;
+    }
+
+    .third_page img {
+        width: 290px;
+        height: 400px;
+    }
+
+    .food {
+        padding: 10px 0 60px 0;
+    }
+
+    .burger {
+        margin-bottom: 100px;
+    }
+
+    .burger, .salad {
+        flex-direction: column;
+    }
+
+    .food_text {
+        max-width: 500px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .quotes {
+        padding: 40px 0 20px 0;
+    }
+
+    .product img:first-child {
+       display: none;
+    }
+
+    .owl-dots {
+        bottom: 50px;
+    }
+
+    .mobile {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .container {
+        max-width: 450px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .momentum img {
+        display: none;
+    }
+
+    .momentum .container {
+        text-align: center;
+    }
+
+    .momentum h1, .momentum p {
+        max-width: 450px;
+    }
+
+    .burger_menu {
+        display: block;
+    }
+
+    .tablet {
+        padding: 50px 0;
+    }
+
+    .tablet img {
+        display: none;
+    }
+
+    .first_pages img, .third_page img{
+        width: 190px;
+    }
+
+    .second_page img {
+        width: 256px;
+    }
+
+    .pages_text {
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .first_pages, .second_page,
+    .third_page {
+        flex-direction: column;
+    }
+
+    .pages {
+        padding: 60px 0 9px 0;
+    }
+
+    .pages span {
+        font-size: 14px;
+    }
+
+    .pages h3 {
+        margin-bottom: 15px;
+    }
+
+    .pages p {
+        margin-bottom: 16px;
+        font-size: 32px;
+    }
+
+    .items {
+        max-width: 101px;
+        margin-bottom: 20px;
+    }
+
+    .items p {
+        display: none;
+    }
+
+    .statistics {
+       width: 100px;
+    }
+    .statistics h3 {
+        font-size: 35px;
+    }
+
+    .statistics p {
+        font-size: 15px;
+    }
+
+    .mobile {
+       display: none;
+    }
+    .subscribe_input {
+        padding: 22px 115px 22px 20px;
+    }
+
+    footer ul {
+        flex-wrap: wrap;
+    }
+
+    footer li {
+        margin: 20px;
+    }
+    footer li:first-child, footer li:last-child {
+        margin: 20px;
+    }
+
+    footer li a {
+        width: 20px;
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 391px) {
+    .container {
+        max-width: 300px;
+    }
+
+    .momentum {
+        padding: 270px 0 30px 0;
+    }
+
+    .activity img {
+        width: 40px;
+        height: 20px;
+    }
+
+    .statistics {
+        width: 120px;
+    }
+
+    .stat {
+        flex-wrap: wrap;
+    }
+
+    .burger img, .salad img {
+        width: 300px;
+        height: 260px;
+    }
+
+    .quotes p {
+        max-width: 700px;
+        margin: 30px auto;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .first_newspaper p:first-child:after, .second_newspaper p:first-child:after {
+        display: none
+    }
+
+    .get_started {
+        padding: 80px 0;
+    }
+
+    .get_started_btn {
+        flex-direction: column;
+    }
+    .get_started_btn a:first-child {
+        margin: 0 0 20px 0;
+    }
+
+    .subscribe {
+        flex-direction: column;
+    }
+
+    .subscribe_input {
+        max-width: none;
+        text-align: center;
+        padding: 22px;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    .momentum {
+        padding: 130px 0 0px 0;
+    }
+
+    .momentum h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .momentum p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .tablet p {
+        max-width: 247px;
+        margin: 20px auto;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .momentum {
+        padding: 170px 0 0px 0;
+    }
+}
