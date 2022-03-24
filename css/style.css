@@ -123,12 +123,23 @@ header a:hover {
     height: 100%;
     color: #FFFFFF;
 }
-.momentum img {
+.momentum_content img {
     width: 652px;
     height: 680px;
     position: absolute;
     top: 130px;
     right: 75px;
+}
+
+.mb-207 {
+    margin-bottom: 227px;
+}
+
+.l_arrow img {
+    margin: 0 auto;
+    position: inherit;
+    width: 9px;
+    height: 40px;
 }
 
 /* the tablet */
@@ -608,9 +619,10 @@ footer li a:hover {
     transition: background .2s linear;
 }
 /* dialog window */
-#dialog {
-    width: 600px;
+.ui-dialog {
+    width: 700px!important;
 }
+
 .ui-widget-header {
     border: none;
     background: #FC0A7E;
@@ -629,11 +641,16 @@ footer li a:hover {
     color: #FFFFFF;
 }
 
+.ui-widget.ui-widget-content {
+    border: none;
+}
+
 .ui-widget-content {
-    border: 2px solid #FC0A7E;
+    border: none;
     background: #1B1B1B;
     color: #FFFFFF;
 }
+
 /* owl-carousel */
 
 .owl-dots {

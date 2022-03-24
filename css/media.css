@@ -1,6 +1,6 @@
 
 @media only screen and (max-width: 1281px) {
-    .momentum img {
+    .momentum_content img {
         width: 652px;
         height: 680px;
         position: absolute;
@@ -43,7 +43,7 @@
         padding: 200px 0 30px 0;
     }
 
-    .momentum img {
+    .momentum_content img {
         width: 479px;
         height: 675px;
         top: 20px;
@@ -177,7 +177,7 @@
         padding: 120px 0 30px 0;
     }
 
-    .momentum img {
+    .momentum_content img {
         width: 335px;
         height: 579px;
         top: -10px;
@@ -208,7 +208,7 @@
         max-width: 680px;
     }
 
-    .momentum img {
+    .momentum_content img {
         width: 380px;
         height: 590px;
         top: 40px;
@@ -304,7 +304,7 @@
         display: none;
     }
 
-    .momentum img {
+    .momentum_content img {
         display: none;
     }
 
