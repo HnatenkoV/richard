@@ -295,12 +295,19 @@
 }
 
 @media only screen and (max-width: 576px) {
+    .nav_menu {
+        display: none;
+    }
+
+    .cd-header {
+        display: block;
+    }
 
     .container {
         max-width: 450px;
     }
 
-    header ul {
+    .nav_menu ul {
         display: none;
     }
 
@@ -314,10 +321,6 @@
 
     .momentum h1, .momentum p {
         max-width: 450px;
-    }
-
-    .burger_menu {
-        display: block;
     }
 
     .tablet {
