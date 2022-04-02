@@ -427,9 +427,7 @@ img {
     height: 1px;
     background: #D3D3D3;
     margin: 0 20px 5px 20px;
-@include max-screen(415px) {
-    display: none;
-}
+
 }
 
 /* ready */

@@ -125,7 +125,7 @@ img {
   line-height: 20px;
   color: #FFFFFF;
 }
-.nav_menu a :hover {
+.nav_menu a:hover {
   color: #FC0A7E;
   transition: 0.2s linear;
 }
@@ -284,7 +284,8 @@ img {
   color: #FFFFFF;
   text-decoration: none;
 }
-.momentum_btn :hover {
+
+.momentum_btn:hover {
   background-color: #CF0063;
   transition: background 0.2s linear;
 }
@@ -1238,7 +1239,7 @@ footer li a {
     font-size: 16px;
   }
 }
-footer li a :hover {
+footer li a:hover {
   color: #CF0063;
   transition: background 0.2s linear;
 }
@@ -1319,7 +1320,8 @@ footer li a :hover {
   text-align: center;
   cursor: pointer;
 }
-.subscribe_btn :hover {
+
+.subscribe_btn:hover {
   background-color: #CF0063;
   transition: background 0.2s linear;
 }
