@@ -427,6 +427,9 @@ img {
     height: 1px;
     background: #D3D3D3;
     margin: 0 20px 5px 20px;
+@include max-screen(415px) {
+    display: none;
+}
 }
 
 /* ready */
@@ -441,7 +444,7 @@ img {
     margin-top: 118px;
 }
 
-    /* get_started */
+/* get_started */
 
 .get_started {
     background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 10%), #FC0A7E url("../image/ready.jpg") center;

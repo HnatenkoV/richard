@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 1281px) {
     .momentum_content img {
         width: 652px;
@@ -282,7 +281,7 @@
     }
 
     .product img:first-child {
-       display: none;
+        display: none;
     }
 
     .owl-dots {
@@ -376,7 +375,7 @@
     }
 
     .statistics {
-       width: 100px;
+        width: 100px;
     }
     .statistics h3 {
         font-size: 35px;
@@ -387,7 +386,7 @@
     }
 
     .mobile {
-       display: none;
+        display: none;
     }
     .subscribe_input {
         padding: 22px 115px 22px 20px;
@@ -620,3 +619,5 @@
         padding: 170px 0 0 0;
     }
 }
+
+
