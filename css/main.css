@@ -40,11 +40,6 @@ img {
 }
 @media screen and (max-width: 1195px) {
   .container {
-    width: 1100px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .container {
     max-width: 950px;
     margin: 0 auto;
   }
@@ -342,7 +337,12 @@ img {
 }
 
 .mb-207 {
-  margin-bottom: 227px;
+  margin-bottom: 170px;
+}
+@media screen and (max-width: 1080px) {
+  .mb-207 {
+    margin-bottom: 150px;
+  }
 }
 @media screen and (max-width: 391px) {
   .mb-207 {
@@ -1385,6 +1385,14 @@ footer li a:hover {
 }
 .owl-dots .owl-dot.active span {
   background: #222222;
+}
+
+.autoplay {
+  width: 100%;
+  margin: 0 auto;
+}
+.autoplay img {
+  max-width: 230px;
 }
 
 @keyframes nav_menu {

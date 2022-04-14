@@ -48,12 +48,9 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   @include max-screen(1195px) {
-    width: 1100px;
+    max-width: 950px;
+    margin: 0 auto;
   }
-  @include max-screen(1024px) {
-      max-width: 950px;
-      margin: 0 auto;
-    }
   @include max-screen(992px) {
     max-width: 900px;
     margin: 0 auto;
@@ -285,7 +282,10 @@ img {
 }
 
 .mb-207 {
-  margin-bottom: 227px;
+  margin-bottom: 170px;
+  @include max-screen(1080px) {
+    margin-bottom: 150px;
+  }
   @include max-screen(391px) {
     margin-bottom: 120px;
   }
@@ -1168,6 +1168,14 @@ footer {
   }
 
 }
+.autoplay {
+  width: 100%;
+  margin: 0 auto;
+      img {
+        max-width: 230px;
+      }
+}
+
 
 @keyframes nav_menu {
   0% {

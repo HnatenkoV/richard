@@ -88,7 +88,6 @@ $(document).ready(function(){
         init();
     }();
 
-
     //Switch light/dark
 
     $("#switch").on('click', function () {
